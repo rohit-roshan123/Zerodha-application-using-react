@@ -1,0 +1,11 @@
+
+.chart{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.chartimage{
+    width: 1040px;
+    height: 42vh;
+}

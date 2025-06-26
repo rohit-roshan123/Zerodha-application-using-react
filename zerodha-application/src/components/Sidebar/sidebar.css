@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.stockname {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(186, 182, 182);
+  padding-right: 12px;
+  padding-left: 7px;
+  height: 5vh;
+}
+
+.stockdata {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+button {
+  height: fit-content;
+}
+
+.buy {
+  background-color: blue;
+  color: white;
+  margin-right: 3px;
+  margin-left: 200px;
+}
+
+.sell {
+  background-color: red;
+  color: white;
+}
+
+.l {
+  color: red;
+}
+.p {
+  color: green;
+}
+
+.textl {
+  width: 2px;
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+  margin-left: 65px;
+}
+
+.textp {
+  width: 2px;
+  display: flex;
+  justify-content: flex-end;
+  color: green;
+  margin-left: 65px;
+}

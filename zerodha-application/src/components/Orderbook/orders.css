@@ -1,0 +1,12 @@
+
+
+.order{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.orderimage{
+    width: 1050px;
+    height: 42vh;
+}

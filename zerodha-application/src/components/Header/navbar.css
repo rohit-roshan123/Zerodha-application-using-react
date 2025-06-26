@@ -1,0 +1,28 @@
+.navcontainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 320px;
+    justify-content: flex-end;
+    border: 1px solid rgb(154, 150, 150);
+
+}
+.Links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 40px;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+
+.notifyimage{
+    width: 135px;
+
+
+}

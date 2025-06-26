@@ -1,0 +1,82 @@
+img{
+    padding-left: 0px;
+    padding-top: 25px;
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+input{
+    width: 230px;
+    height: 16px;
+    border-radius: 3px;
+    border-color: darkgray;
+    border-top-width: 1px;border-right-width: 1px;border-bottom-width: 1px;border-left-width: 1px;padding-top: 10px;padding-bottom: 10px;padding-right: 15px;padding-left: 15px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+}
+
+button{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0;
+    padding: 8px 110px;
+
+}
+lin{
+
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+}
+.sn{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#fp{
+    padding-top: 25px;
+}
+
+
+
+body {
+    background-color: whitesmoke;
+}
+
+.login-card{
+    background-color: white;
+    width: 100%;
+    max-width: 340px;
+    border-radius: 4px;
+    height: 440px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
