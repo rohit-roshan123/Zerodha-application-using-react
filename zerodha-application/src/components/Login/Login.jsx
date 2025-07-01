@@ -5,11 +5,10 @@ import '/public/kite.png';
 function Login() {
   return (
     <div>
-      <div className="flex-container">
+      <div className="login-container">
         <div className="login-card">
-          <img src="./kite.png" width="80px" height="80px" />
+          <img src="./kite.png" className='logo'/>
           <h2>Login to Kite</h2>
-          <form>
             <div className="in">
               <input
                 type="text"
@@ -27,12 +26,11 @@ function Login() {
               />
             </div>
             <div className="butt">
-              <button type="submit">Login</button>
+              <button type="submit" class='login-button'>Login</button>
             </div>
             <div id="fp">
               <a href="#">Forgot User ID or Password?</a>
             </div>
-          </form>
         </div>
       </div>
     </div>
