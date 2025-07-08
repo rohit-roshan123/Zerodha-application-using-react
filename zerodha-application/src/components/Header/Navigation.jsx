@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -9,59 +9,17 @@ function Navigation() {
         <div className="navbar">
           <img src="/public/kite.png" />
           <div className="Links">
-            <NavLink
-              to="/dashboard"
-              className={({ isActive }) =>
-                isActive ? "active-link" : "nav-link"
-              }
-            >
-              Dashboard
-            </NavLink>
+            <Link to="/dashboard">Dashboard</Link>
 
-            <NavLink
-              to="/orders"
-              className={({ isActive }) =>
-                isActive ? "active-link" : "nav-link"
-              }
-            >
-              Orders
-            </NavLink>
+            <Link to="/orders">Orders</Link>
 
-            <NavLink
-              to="/holdings"
-              className={({ isActive }) =>
-                isActive ? "active-link" : "nav-link"
-              }
-            >
-              Holdings
-            </NavLink>
+            <Link to="/holdings">Holdings</Link>
 
-            <NavLink
-              to="/positions"
-              className={({ isActive }) =>
-                isActive ? "active-link" : "nav-link"
-              }
-            >
-              Positions
-            </NavLink>
+            <Link to="/positions">Positions</Link>
 
-            <NavLink
-              to="/bids"
-              className={({ isActive }) =>
-                isActive ? "active-link" : "nav-link"
-              }
-            >
-              Bids
-            </NavLink>
+            <Link to="/bids">Bids</Link>
 
-            <NavLink
-              to="/funds"
-              className={({ isActive }) =>
-                isActive ? "active-link" : "nav-link"
-              }
-            >
-              Funds
-            </NavLink>
+            <Link to="/funds">Funds</Link>
 
             <img
               src="./public/Screenshot 2025-06-27 035636.png"

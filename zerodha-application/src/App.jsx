@@ -8,7 +8,8 @@ import Holdings from "./components/Holdings/Holdings";
 import Positions from "./components/Positions/Positions";
 import Bids from "./components/Bids/Bids";
 import Funds from "./components/Funds/Funds";
-
+import ZerodhaTheme from "./components/Logpage/Appl";
+import Navigation from "./components/Header/Navigation";
 function App() {
   return (
     <>
